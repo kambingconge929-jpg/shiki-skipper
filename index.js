@@ -16,7 +16,7 @@ const client = new Client({
     ]
 });
 
-const TOKEN = 'MTUwMjMwODA1NDY5MDAzNzc3MA.G57NWN.9vTc-QAd5k3qxUP3nLxS-qkwSfOyzZzClB3QDo';
+const TOKEN = process.env.TOKEN; = 'MTUwMjMwODA1NDY5MDAzNzc3MA.G57NWN.9vTc-QAd5k3qxUP3nLxS-qkwSfOyzZzClB3QDo';
 
 client.once('ready', () => {
     console.log('✅ SHIKI SKIPER CLOUD ONLINE!');
